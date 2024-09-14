@@ -2,7 +2,7 @@ FROM nginx:latest
 
 LABEL author="rajatz"
 
-COPY source dest
+COPY index.html 
 
 RUN cat <h1> Hell > /usr/share/nginx/html
 
