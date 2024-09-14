@@ -6,7 +6,7 @@ LABEL author="rajatz"
 
 
 
-RUN echo <h1> Hello World </h1> > /var/www/html/index.html
+RUN echo <h1> Hello World </h1> > /usr/share/nginx/html
 
 EXPOSE 80
 
