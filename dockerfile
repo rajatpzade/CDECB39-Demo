@@ -2,4 +2,4 @@ FROM centos:7
 
 LABEL author="rajatz"
 
-RUN command
+RUN yum install httpd -y 
