@@ -6,4 +6,7 @@ RUN yum install httpd -y
 
 RUN echo <h1> Hello World </h1> > /var/www/html/index.html
 
-CMD [ "executable" ]
+
+
+CMD ["httpd-foreground"]
+
