@@ -4,4 +4,4 @@ LABEL author="rajatz"
 
 RUN yum install httpd -y 
 
-RUN echo 
+RUN echo <h1> 
