@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 LABEL APP="StudentappFE"
-LABEL DevopsEngg="Anup"
+LABEL DevopsEngg="Rajatz"
 
 
 RUN apt-get update && \
