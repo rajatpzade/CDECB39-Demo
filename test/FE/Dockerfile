@@ -1,11 +1,12 @@
-FROM ubuntu:20.04
-LABEL APP="StudentappFE"
-LABEL DevopsEngg="Rajatz"
+# Use the official httpd image from Docker Hub
+FROM httpd:latest
 
+# Copy custom website content into the default Apache directory
+COPY ./index.html/ /usr/local/apache2/htdocs/
 
-RUN apt-get update && \
-    apt-get install apache2 -y
-COPY index.html /var/www/html/index.html
-
+# Expose the default Apache HTTP port
 EXPOSE 80
-CMD httpd -DFOREGROUND
+
+# Start the Apache HTTP Server
+CMD ["httpd-foreground"]
+
