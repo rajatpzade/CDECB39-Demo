@@ -14,6 +14,6 @@
 # Step 3
 
 ## Used Frontend Directory And Build Dockerfile for Frontend data
--  dockerfile : [text](FE/Dockerfile)
+-  dockerfile : (FE/Dockerfile)
 -  respected file needed in this directory 
 -  configure database endpoint 
