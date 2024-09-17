@@ -13,5 +13,7 @@
 
 # Step 3
 
-## Used Frontend Directory And Build Dockerfile for backend data
-
+## Used Frontend Directory And Build Dockerfile for Frontend data
+-  dockerfile : Students-Docker/BE/Dockerfile 
+-  respected file needed in this directory 
+-  configure database endpoint 
