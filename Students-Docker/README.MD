@@ -1,3 +1,3 @@
 # Step 1 
 
-## used Database 
+## used Database Directory and depoly container us
