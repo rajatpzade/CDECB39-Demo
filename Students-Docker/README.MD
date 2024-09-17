@@ -16,4 +16,4 @@
 ## Used Frontend Directory And Build Dockerfile for Frontend data
 -  dockerfile : (FE/Dockerfile)
 -  respected file needed in this directory 
--  configure backend endpoint in index
+-  configure backend endpoint in index.html file
