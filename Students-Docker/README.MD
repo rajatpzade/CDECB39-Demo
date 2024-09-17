@@ -1,5 +1,6 @@
 # Step 1 
 
 ## used Database Directory and depoly container using docker file 
-  - dockerfile - Students-Docker/DB/Dockerfile
-  - sql 
+  - dockerfile : Students-Docker/DB/Dockerfile
+  - sql table  : Students-Docker/DB/init-db.sql
+
