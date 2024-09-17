@@ -9,4 +9,8 @@
 ## Used Backend Directory And Build Dockerfile for backend data 
 -  dockerfile : Students-Docker/BE/Dockerfile 
 -  respected file needed in this directory 
--  
+-  configure database endpoint 
+
+
+
+
