@@ -6,9 +6,6 @@ spec:
   containers:
   - name: myapp
     image: nginx:latest
-    resources:
-      limits:
-      
-        
+   
     ports:
       - containerPort: <Port>
