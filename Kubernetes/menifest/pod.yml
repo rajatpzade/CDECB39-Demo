@@ -9,7 +9,7 @@ spec:
     ports:
       - containerPort: 80
   - name: myapp
-    image: nginx:latest
+    image: tomcat
     ports:
-      - containerPort: 80 
+      - containerPort: 8080 
 
