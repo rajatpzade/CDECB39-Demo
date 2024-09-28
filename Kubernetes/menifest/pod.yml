@@ -11,4 +11,4 @@ spec:
   - name: myapp
     image: tomcat
     ports:
-      - containerPort: 8080 
+      - containerPort: 80 
