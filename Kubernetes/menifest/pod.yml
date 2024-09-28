@@ -8,7 +8,6 @@ spec:
     image: nginx:latest
     ports:
       - containerPort: 80
-  - name: myapp1
     image: tomcat
     ports:
       - containerPort: 80 
