@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector:
     matchExpressions:
-    - {key: app, operator: In, values: [my-xyz, cbz-app]}
+    - {key: name, operator: In, values: [cbz-app-xyz, cbz-app]}
   template: 
     metadata:
       labels:
