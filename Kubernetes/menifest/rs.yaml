@@ -18,4 +18,4 @@ spec:
               protocol: TCP
 selector:
   matchExpressions:
-- {key: app, operator: In, values: [xyz-app]}           
+- {key: app, operator: In, values: [xyz-app, cbz-app]}           
