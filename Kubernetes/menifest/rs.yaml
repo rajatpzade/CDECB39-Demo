@@ -3,4 +3,7 @@ kind: ReplicaSet
 metadata:
   name: my-rs
 spec:
-  re  
+  replicas: 3
+  template: 
+    metadata:
+      
