@@ -11,8 +11,8 @@ spec:
   template:
     metadata:
       labels:
-        app: frontend
+        app: cbz-app
     spec:
       containers:
-      - name: php-redis
+      - name: my-pod
         image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
