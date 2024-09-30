@@ -16,4 +16,5 @@ spec:
             - name: http 
               containersPort: 80
               protocol: TCP
-              
+selector:
+  ma              
