@@ -2,17 +2,3 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: my-rs
-spec:
-  # modify replicas according to your case
-  replicas: 3
-  selector:
-    matchLabels:
-      app: my-xyz
-  template:
-    metadata:
-      labels:
-        app: cbz-app
-    spec:
-      containers:
-      - name: my-pod-cont
-        image: nginx
