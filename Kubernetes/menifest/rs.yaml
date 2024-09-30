@@ -17,5 +17,5 @@ spec:
               containersPort: 80
               protocol: TCP
 selector:
-  matchExpression:
-  - {key: app, opertor: In,}              
+  matchExpressions:
+- {key: tier, operator: In, values: [frontend]}           
