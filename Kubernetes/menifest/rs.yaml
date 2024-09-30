@@ -18,4 +18,4 @@ spec:
               protocol: TCP
 selector:
   matchExpressions:
-- {key: tier, operator: In, values: [frontend]}           
+- {key: app, operator: In, values: [frontend]}           
