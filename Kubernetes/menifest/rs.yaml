@@ -14,5 +14,5 @@ spec:
         app: cbz-app
     spec:
       containers:
-      - name: my-pod
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+      - name: my-pod-cont
+        image: nginx
