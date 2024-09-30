@@ -1,10 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: frontend
-  labels:
-    app: guestbook
-    tier: frontend
+  name: my-rs
 spec:
   # modify replicas according to your case
   replicas: 3
