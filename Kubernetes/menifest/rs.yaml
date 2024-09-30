@@ -10,4 +10,5 @@ spec:
         app: cbz-app
     spec: 
       containers:
-        - 
+        - name: my-pod-cont
+        
