@@ -4,18 +4,18 @@ metadata:
   name: my-rs
 spec:
   replicas: 3
+  selector:
+    matchExpressions:
+    - {key: app, operator: In, values: [my-xyz, cbz-app]}
   template: 
     metadata:
       labels:
         app: cbz-app
     spec: 
       containers:
-        - name: my-pod-cont
-          image: nginx
-          ports:
-            - name: http 
-              containersPort: 80
-              protocol: TCP
-selector:
-  matchExpressions:
-- {key: app, operator: In, values: [my-xyz, cbz-app]}           
+      - name: my-pod-cont
+        image: nginx
+        ports:
+        - name: http 
+          containerPort: 80
+          protocol: TCP
