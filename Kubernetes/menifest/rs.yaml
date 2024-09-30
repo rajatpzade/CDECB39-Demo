@@ -2,3 +2,5 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: my-rs
+spec:
+  re  
