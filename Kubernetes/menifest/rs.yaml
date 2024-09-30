@@ -10,7 +10,7 @@ spec:
   template: 
     metadata:
       labels:
-        app: cbz-app
+        name: cbz-app
     spec: 
       containers:
       - name: my-pod-cont
